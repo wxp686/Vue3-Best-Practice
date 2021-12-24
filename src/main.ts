@@ -3,7 +3,7 @@
  * @Autor: wxp
  * @Date: 2021-12-22 14:30:35
  * @LastEditors: wxp
- * @LastEditTime: 2021-12-24 12:15:20
+ * @LastEditTime: 2021-12-24 12:42:44
  */
 import { createApp, h, render } from 'vue'
 import http from './http'
@@ -43,8 +43,6 @@ app.mixin({
       vm?.$el.parentNode.insertBefore(cloneNode, vm?.$el.nextSibling)
     }
     return false
-  },
-  mounted() {
   }
 })
 
